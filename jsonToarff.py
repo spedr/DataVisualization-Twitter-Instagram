@@ -9,7 +9,7 @@ def toArff(inputfile, outputfile):
       tweets = json.load(json_data)
       
 
-  file  = open(outputfile, "a+")
+  file = open(outputfile, "a+")
   file.write('''@RELATION tweets
   @ATTRIBUTE id string
   @ATTRIBUTE date_time DATE "yyyy-MM-dd HH:mm:ss"
@@ -39,7 +39,9 @@ def toArff(inputfile, outputfile):
         "'," +str(retweet_count) +
         "," +str(followers_count) +
         "," +str(likes) +
-        ",'" +tweet["text_content"]+"'")
+        ",\"" +tweet["text_content"]+"\"")
+
+  file.close()
 
 
 def main(argv):
