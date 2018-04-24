@@ -1,0 +1,224 @@
+{"timezone_name": "Amsterdam", "pytz_timezone": "Europe/Amsterdam", "country": "Netherlands"}
+{"timezone_name": "Singapore", "pytz_timezone": "Asia/Singapore", "country": "Singapore"}
+{"timezone_name": "London", "pytz_timezone": "Europe/London", "country": "United Kingdom"}
+{"timezone_name": "Rome", "pytz_timezone": "America/New_York", "country": "Italy"}
+{"timezone_name": "Hong Kong", "pytz_timezone": "Asia/Hong_Kong", "country": "Hong Kong"}
+{"timezone_name": "Quito", "pytz_timezone": "America/Guayaquil", "country": "Ecuador"}
+{"timezone_name": "Taipei", "pytz_timezone": "Asia/Taipei", "country": "Taiwan"}
+{"timezone_name": "Casablanca", "pytz_timezone": "Africa/Casablanca", "country": "Morocco"}
+{"timezone_name": "Beijing", "pytz_timezone": "Asia/Shanghai", "country": "China"}
+{"timezone_name": "Jakarta", "pytz_timezone": "Asia/Jakarta", "country": "Indonesia"}
+{"timezone_name": "Arizona", "pytz_timezone": "America/Phoenix", "country": "United States of America"}
+{"timezone_name": "Pretoria", "pytz_timezone": "Africa/Johannesburg", "country": "South Africa"}
+{"timezone_name": "Berlin", "pytz_timezone": "Europe/Berlin", "country": "Germany"}
+{"timezone_name": "Edinburgh", "pytz_timezone": "Europe/London", "country": "United Kingdom"}
+{"timezone_name": "Copenhagen", "pytz_timezone": "Europe/Copenhagen", "country": "Denmark"}
+{"timezone_name": "Chennai", "pytz_timezone": "Asia/Kolkata", "country": "India"}
+{"timezone_name": "Paris", "pytz_timezone": "Europe/Paris", "country": "France"}
+{"timezone_name": "Vienna", "pytz_timezone": "Europe/Vienna", "country": "Austria"}
+{"timezone_name": "Dublin", "pytz_timezone": "Europe/Dublin", "country": "Ireland"}
+{"timezone_name": "Mumbai", "pytz_timezone": "Asia/Kolkata", "country": "India"}
+{"timezone_name": "Lisbon", "pytz_timezone": "Europe/Lisbon", "country": "Portugal"}
+{"timezone_name": "Baku", "pytz_timezone": "Asia/Baku", "country": "Azerbaijan"}
+{"timezone_name": "Karachi", "pytz_timezone": "Asia/Karachi", "country": "Pakistan"}
+{"timezone_name": "Muscat", "pytz_timezone": "Asia/Muscat", "country": "Oman"}
+{"timezone_name": "New Delhi", "pytz_timezone": "Asia/Calcutta", "country": "India"}
+{"timezone_name": "Mid-Atlantic", "pytz_timezone": "America/New_York", "country": "United States of America"}
+{"timezone_name": "Yerevan", "pytz_timezone": "Asia/Yerevan", "country": "Armenia"}
+{"timezone_name": "Bangkok", "pytz_timezone": "Asia/Bangkok", "country": "Thailand"}
+{"timezone_name": "Kyiv", "pytz_timezone": "Europe/Kiev", "country": "Ukraine"}
+{"timezone_name": "Islamabad", "pytz_timezone": "Asia/Karachi", "country": "Pakistan"}
+{"timezone_name": "Madrid", "pytz_timezone": "Europe/Madrid", "country": "Madrid"}
+{"timezone_name": "Tokyo", "pytz_timezone": "Asia/Tokyo", "country": "Japan"}
+{"timezone_name": "Bern", "pytz_timezone": "Europe/Zurich", "country": "Switzerland"}
+{"timezone_name": "Santiago", "pytz_timezone": "America/Santiago", "country": "Chile"}
+{"timezone_name": "Nairobi", "pytz_timezone": "Africa/Nairobi", "country": "Kenya"}
+{"timezone_name": "Perth", "pytz_timezone": "Australia/Perth", "country": "Australia"}
+{"timezone_name": "Mazatlan", "pytz_timezone": "America/Mazatlan", "country": "Mexico"}
+{"timezone_name": "Harare", "pytz_timezone": "Africa/Harare", "country": "Zimbabwe"}
+{"timezone_name": "Osaka", "pytz_timezone": "Asia/Tokyo", "country": "Japan"}
+{"timezone_name": "Athens", "pytz_timezone": "Europe/Athens", "country": "Greece"}
+{"timezone_name": "Baghdad", "pytz_timezone": "Asia/Baghdad", "country": "Iraq"}
+{"timezone_name": "Midway Island", "pytz_timezone": "Pacific/Midway", "country": "United States of America"}
+{"timezone_name": "Georgetown", "pytz_timezone": "America/New_York", "country": "Guyana"}
+{"timezone_name": "Greenland", "pytz_timezone": "America/Godthab", "country": "Greenland"}
+{"timezone_name": "Dhaka", "pytz_timezone": "Asia/Dhaka", "country": "Bangladesh"}
+{"timezone_name": "New Caledonia", "pytz_timezone": "Pacific/Noumea", "country": "New Caledonia"}
+{"timezone_name": "Prague", "pytz_timezone": "Europe/Prague", "country": "Czech Republic"}
+{"timezone_name": "Alaska", "pytz_timezone": "US/Alaska", "country": "United States of America"}
+{"timezone_name": "Adelaide", "pytz_timezone": "Australia/Adelaide", "country": "Australia"}
+{"timezone_name": "Melbourne", "pytz_timezone": "Australia/Melbourne", "country": "Australia"}
+{"timezone_name": "Mexico City", "pytz_timezone": "America/Mexico_City", "country": "Mexico"}
+{"timezone_name": "Sydney", "pytz_timezone": "Australia/Sydney", "country": "Australia"}
+{"timezone_name": "Ljubljana", "pytz_timezone": "Europe/Ljubljana", "country": "Slovenia"}
+{"timezone_name": "Tbilisi", "pytz_timezone": "Asia/Tbilisi", "country": "Georgia"}
+{"timezone_name": "Bogota", "pytz_timezone": "America/Bogota", "country": "Colombia"}
+{"timezone_name": "Indiana (East)", "pytz_timezone": "America/Indiana/Indianapolis", "country": "United States of America"}
+{"timezone_name": "Brussels", "pytz_timezone": "Europe/Brussels", "country": "Belgium"}
+{"timezone_name": "EST", "pytz_timezone": "EST", "country": "None"}
+{"timezone_name": "Brasilia", "pytz_timezone": "America/Sao_Paulo", "country": "Brazil"}
+{"timezone_name": "Kolkata", "pytz_timezone": "Asia/Kolkata", "country": "India"}
+{"timezone_name": "Abu Dhabi", "pytz_timezone": "Asia/Dubai", "country": "United Arab Emirates"}
+{"timezone_name": "Stockholm", "pytz_timezone": "Europe/Stockholm", "country": "Sweden"}
+{"timezone_name": "Cairo", "pytz_timezone": "Africa/Cairo", "country": "Egypt"}
+{"timezone_name": "Canberra", "pytz_timezone": "Australia/Sydney", "country": "Australia"}
+{"timezone_name": "La Paz", "pytz_timezone": "America/La_Paz", "country": "Bolivia"}
+{"timezone_name": "Newfoundland", "pytz_timezone": "Canada/Newfoundland", "country": "Canada"}
+{"timezone_name": "Brisbane", "pytz_timezone": "Australia/Brisbane", "country": "Australia"}
+{"timezone_name": "Warsaw", "pytz_timezone": "Europe/Warsaw", "country": "Poland"}
+{"timezone_name": "CDT", "pytz_timezone": "CST6CDT", "country": "None"}
+{"timezone_name": "Wellington", "pytz_timezone": "Pacific/Auckland", "country": "New Zealand"}
+{"timezone_name": "Hobart", "pytz_timezone": "Australia/Hobart", "country": "Australia"}
+{"timezone_name": "Istanbul", "pytz_timezone": "Europe/Istanbul", "country": "Turkey"}
+{"timezone_name": "Kuala Lumpur", "pytz_timezone": "Asia/Kuala_Lumpur", "country": "Malaysia"}
+{"timezone_name": "Vilnius", "pytz_timezone": "Europe/Vilnius", "country": "Lithuania"}
+{"timezone_name": "Tehran", "pytz_timezone": "Asia/Tehran", "country": "Iran"}
+{"timezone_name": "Moscow", "pytz_timezone": "Europe/Moscow", "country": "Russia"}
+{"timezone_name": "Lima", "pytz_timezone": "America/Lima", "country": "Peru"}
+{"timezone_name": "Jerusalem", "pytz_timezone": "Asia/Jerusalem", "country": "Israel"}
+{"timezone_name": "Skopje", "pytz_timezone": "Europe/Skopje", "country": "Macedonia"}
+{"timezone_name": "Zagreb", "pytz_timezone": "Europe/Zagreb", "country": "Croatia"}
+{"timezone_name": "Almaty", "pytz_timezone": "Asia/Almaty", "country": "Kazakhstan"}
+{"timezone_name": "Yakutsk", "pytz_timezone": "Asia/Yakutsk", "country": "Russia"}
+{"timezone_name": "Belgrade", "pytz_timezone": "Europe/Vienna", "country": "Austria"}
+{"timezone_name": "Kuwait", "pytz_timezone": "Asia/Kuwait", "country": "Kuwait"}
+{"timezone_name": "Helsinki", "pytz_timezone": "Europe/Helsinki", "country": "Finland"}
+{"timezone_name": "Bucharest", "pytz_timezone": "Europe/Bucharest", "country": "Romania"}
+{"timezone_name": "Ulaan Bataar", "pytz_timezone": "Asia/Ulaanbaatar", "country": "Mongolia"}
+{"timezone_name": "Irkutsk", "pytz_timezone": "Asia/Irkutsk", "country": "Russia"}
+{"timezone_name": "Volgograd", "pytz_timezone": "Europe/Volgograd", "country": "Russia"}
+{"timezone_name": "Riyadh", "pytz_timezone": "Asia/Riyadh", "country": "Saudi Arabia"}
+{"timezone_name": "Cape Verde Is.", "pytz_timezone": "Atlantic/Cape_Verde", "country": "Cape Verde"}
+{"timezone_name": "Seoul", "pytz_timezone": "Asia/Seoul", "country": "South Korea"}
+{"timezone_name": "Auckland", "pytz_timezone": "Pacific/Auckland", "country": "New Zealand"}
+{"timezone_name": "Buenos Aires", "pytz_timezone": "America/Argentina/Buenos_Aires", "country": "Argentina"}
+{"timezone_name": "Budapest", "pytz_timezone": "Europe/Budapest", "country": "Hungary"}
+{"timezone_name": "Caracas", "pytz_timezone": "America/Caracas", "country": "Venezuela"}
+{"timezone_name": "Krasnoyarsk", "pytz_timezone": "Asia/Krasnoyarsk", "country": "Russia"}
+{"timezone_name": "Ekaterinburg", "pytz_timezone": "Asia/Yekaterinburg", "country": "Russia"}
+{"timezone_name": "BST", "pytz_timezone": "Europe/Guernsey", "country": "Guernsey"}
+{"timezone_name": "Guadalajara", "pytz_timezone": "America/Mexico_City", "country": "Mexico"}
+{"timezone_name": "Kiev", "pytz_timezone": "Europe/Kiev", "country": "Ukraine"}
+{"timezone_name": "Hanoi", "pytz_timezone": "Asia/Saigon", "country": "Vietnam"}
+{"timezone_name": "Sri Jayawardenepura", "pytz_timezone": "Asia/Colombo", "country": "Sri Lanka"}
+{"timezone_name": "Darwin", "pytz_timezone": "Australia/Darwin", "country": "Australia"}
+{"timezone_name": "PST", "pytz_timezone": "US/Pacific", "country": "United States of America"}
+{"timezone_name": "Tijuana", "pytz_timezone": "America/Tijuana", "country": "Mexico"}
+{"timezone_name": "JST", "pytz_timezone": "Asia/Tokyo", "country": "Japan"}
+{"timezone_name": "Sarajevo", "pytz_timezone": "Europe/Sarajevo", "country": "Bosnia-Herzegovina"}
+{"timezone_name": "Azores", "pytz_timezone": "Atlantic/Azores", "country": "Portugal"}
+{"timezone_name": "Kathmandu", "pytz_timezone": "Asia/Kathmandu", "country": "Nepal"}
+{"timezone_name": "GMT", "pytz_timezone": "GMT", "country": "None"}
+{"timezone_name": "Sofia", "pytz_timezone": "Europe/Sofia", "country": "Bulgaria"}
+{"timezone_name": "Solomon Is.", "pytz_timezone": "Pacific/Guadalcanal", "country": "Solomon Islands"}
+{"timezone_name": "Guam", "pytz_timezone": "Pacific/Guam", "country": "Guam"}
+{"timezone_name": "Urumqi", "pytz_timezone": "Asia/Urumqi", "country": "China"}
+{"timezone_name": "Port Moresby", "pytz_timezone": "Pacific/Port_Moresby", "country": "Papua New Guinea"}
+{"timezone_name": "Vladivostok", "pytz_timezone": "Asia/Vladivostok", "country": "Russia"}
+{"timezone_name": "Riga", "pytz_timezone": "Europe/Riga", "country": "Latvia"}
+{"timezone_name": "Monrovia", "pytz_timezone": "Africa/Monrovia", "country": "Liberia"}
+{"timezone_name": "Novosibirsk", "pytz_timezone": "Asia/Novosibirsk", "country": "Russia"}
+{"timezone_name": "Rangoon", "pytz_timezone": "Asia/Rangoon", "country": "Myanmar"}
+{"timezone_name": "Saskatchewan", "pytz_timezone": "America/Regina", "country": "Canada"}
+{"timezone_name": "Bratislava", "pytz_timezone": "Europe/Bratislava", "country": "Slovakia"}
+{"timezone_name": "Minsk", "pytz_timezone": "Europe/Minsk", "country": "Belarus"}
+{"timezone_name": "Monterrey", "pytz_timezone": "America/Monterrey", "country": "Mexico"}
+{"timezone_name": "St. Petersburg", "pytz_timezone": "Europe/Moscow", "country": "Russia"}
+{"timezone_name": "Sapporo", "pytz_timezone": "Asia/Tokyo", "country": "Japan"}
+{"timezone_name": "EDT", "pytz_timezone": "America/New_York", "country": "None"}
+{"timezone_name": "Eastern Time (US & Canada)", "country": "United States of America", "pytz_timezone": "US/Eastern"}
+{"timezone_name": "Pacific Time (US & Canada)", "country": "United States of America", "pytz_timezone": "US/Pacific"}
+{"timezone_name": "Central Time (US & Canada)", "country": "United States of America", "pytz_timezone": "US/Central"}
+{"timezone_name": "Mountain Time (US & Canada)", "country": "United States of America", "pytz_timezone": "US/Mountain"}
+{"timezone_name": "America/Vancouver", "country": "Canada", "pytz_timezone": "America/Vancouver"}
+{"timezone_name": "America/New_York", "country": "United States of America", "pytz_timezone": "America/New_York"}
+{"timezone_name": "America/Chicago", "country": "United States of America", "pytz_timezone": "America/Chicago"}
+{"timezone_name": "Hawaii", "country": "United States of America", "pytz_timezone": "US/Hawaii"}
+{"timezone_name": "West Central Africa", "country": "Cote d'Ivoire", "pytz_timezone": "Africa/Abidjan"}
+{"timezone_name": "Atlantic Time (Canada)", "country": "Canada", "pytz_timezone": "Canada/Atlantic"}
+{"timezone_name": "Europe/Paris", "country": "France", "pytz_timezone": "Europe/Paris"}
+{"timezone_name": "America/Los_Angeles", "country": "United States of America", "pytz_timezone": "America/Los_Angeles"}
+{"timezone_name": "Central America", "country": "None", "pytz_timezone": "None"}
+{"timezone_name": "America/Sao_Paulo", "country": "Brazil", "pytz_timezone": "America/Sao_Paulo"}
+{"timezone_name": "Asia/Calcutta", "country": "India", "pytz_timezone": "Asia/Calcutta"}
+{"timezone_name": "UTC", "country": "None", "pytz_timezone": "None"}
+{"timezone_name": "Europe/Madrid", "country": "Spain", "pytz_timezone": "Europe/Madrid"}
+{"timezone_name": "America/Denver", "country": "United States of America", "pytz_timezone": "America/Denver"}
+{"timezone_name": "America/Toronto", "country": "United States of America", "pytz_timezone": "America/Toronto"}
+{"timezone_name": "Europe/London", "country": "United Kingdom", "pytz_timezone": "Europe/London"}
+{"timezone_name": "International Date Line West", "country": "None", "pytz_timezone": "None"}
+{"timezone_name": "America/Buenos_Aires", "country": "Argentina", "pytz_timezone": "America/Buenos_Aires"}
+{"timezone_name": "Australia/Adelaide", "country": "Australia", "pytz_timezone": "Australia/Adelaide"}
+{"timezone_name": "Europe/Brussels", "country": "Belgium", "pytz_timezone": "Europe/Brussels"}
+{"timezone_name": "Asia/Karachi", "country": "Pakistan", "pytz_timezone": "Asia/Karachi"}
+{"timezone_name": "Asia/Riyadh", "country": "Saudi Arabia", "pytz_timezone": "Asia/Riyadh"}
+{"timezone_name": "Africa/Nairobi", "country": "Kenya", "pytz_timezone": "Africa/Nairobi"}
+{"timezone_name": "Australia/Brisbane", "country": "Australia", "pytz_timezone": "Australia/Brisbane"}
+{"timezone_name": "Europe/Rome", "country": "Italy", "pytz_timezone": "Europe/Rome"}
+{"timezone_name": "Kamchatka", "country": "Russia", "pytz_timezone": "Asia/Kamchatka"}
+{"timezone_name": "America/Detroit", "country": "United States of America", "pytz_timezone": "America/Detroit"}
+{"timezone_name": "America/Mexico_City", "country": "Mexico", "pytz_timezone": "America/Mexico_City"}
+{"timezone_name": "America/Caracas", "country": "Venezuela", "pytz_timezone": "America/Caracas"}
+{"timezone_name": "Europe/Warsaw", "country": "Poland", "pytz_timezone": "Europe/Warsaw"}
+{"timezone_name": "GMT+3", "country": "None", "pytz_timezone": "None"}
+{"timezone_name": "GMT+1", "country": "None", "pytz_timezone": "None"}
+{"timezone_name": "Fiji", "country": "Fiji", "pytz_timezone": "Pacific/Fiji"}
+{"timezone_name": "Europe/Luxembourg", "country": "Luxembourg", "pytz_timezone": "Europe/Luxembourg"}
+{"timezone_name": "Tallinn", "country": "Estonia", "pytz_timezone": "Europe/Tallinn"}
+{"timezone_name": "GMT+8", "country": "None", "pytz_timezone": "None"}
+{"timezone_name": "Asia/Tokyo", "country": "Japan", "pytz_timezone": "Asia/Tokyo"}
+{"timezone_name": "Australia/Perth", "country": "Australia", "pytz_timezone": "Australia/Perth"}
+{"timezone_name": "Europe/Istanbul", "country": "Istanbul", "pytz_timezone": "Europe/Istanbul"}
+{"timezone_name": "Asia/Manila", "country": "Philippines", "pytz_timezone": "Asia/Manila"}
+{"timezone_name": "Asia/Dhaka", "country": "Bangladesh", "pytz_timezone": "Asia/Dhaka"}
+{"timezone_name": "Asia/Kolkata", "country": "India", "pytz_timezone": "Asia/Kolkata"}
+{"timezone_name": "Europe/Stockholm", "country": "Sweden", "pytz_timezone": "Europe/Stockholm"}
+{"timezone_name": "Asia/Beirut", "country": "Lebanon", "pytz_timezone": "Asia/Beirut"}
+{"timezone_name": "Europe/Athens", "country": "Greece", "pytz_timezone": "Europe/Athens"}
+{"timezone_name": "Asia/Makassar", "country": "Indonesia", "pytz_timezone": "Asia/Makassar"}
+{"timezone_name": "Asia/Jakarta", "country": "Indonesia", "pytz_timezone": "Asia/Jakarta"}
+{"timezone_name": "Europe/Berlin", "country": "Germany", "pytz_timezone": "Europe/Berlin"}
+{"timezone_name": "Africa/Ceuta", "country": "Spain", "pytz_timezone": "Africa/Ceuta"}
+{"timezone_name": "America/Regina", "country": "Canada", "pytz_timezone": "America/Regina"}
+{"timezone_name": "Nuku'alofa", "country": "Tonga", "pytz_timezone": "Pacific/Tongatapu"}
+{"timezone_name": "Africa/Johannesburg", "country": "South Africa", "pytz_timezone": "Africa/Johannesburg"}
+{"timezone_name": "Africa/Brazzaville", "country": "Congo", "pytz_timezone": "Africa/Brazzaville"}
+{"timezone_name": "Asia/Bangkok", "country": "Thailand", "pytz_timezone": "Asia/Bangkok"}
+{"timezone_name": "Asia/Kuala_Lumpur", "country": "Malaysia", "pytz_timezone": "Asia/Kuala_Lumpur"}
+{"timezone_name": "Atlantic/Madeira", "country": "Portugal", "pytz_timezone": "Atlantic/Madeira"}
+{"timezone_name": "Chihuahua", "country": "Mexico", "pytz_timezone": "America/Chihuahua"}
+{"timezone_name": "America/Boise", "country": "United States of America", "pytz_timezone": "America/Boise"}
+{"timezone_name": "America/Halifax", "country": "Canada", "pytz_timezone": "America/Halifax"}
+{"timezone_name": "Australia/Sydney", "country": "Australia", "pytz_timezone": "Australia/Sydney"}
+{"timezone_name": "America/Port_of_Spain", "country": "Spain", "pytz_timezone": "America/Port_of_Spain"}
+{"timezone_name": "America/Anchorage", "country": "United States of America", "pytz_timezone": "America/Anchorage"}
+{"timezone_name": "America/Chihuahua", "country": "Mexico", "pytz_timezone": "America/Chihuahua"}
+{"timezone_name": "Europe/Lisbon", "country": "Portugal", "pytz_timezone": "Europe/Lisbon"}
+{"timezone_name": "America/Dawson", "country": "Canada", "pytz_timezone": "America/Dawson"}
+{"timezone_name": "Indian/Maldives", "country": "Maldives", "pytz_timezone": "Indian/Maldives"}
+{"timezone_name": "Europe/Dublin", "country": "Ireland", "pytz_timezone": "Europe/Dublin"}
+{"timezone_name": "Astana", "country": "Kazakhstan", "pytz_timezone": "Asia/Almaty"}
+{"timezone_name": "Pacific/Honolulu", "country": "United States of America", "pytz_timezone": "Pacific/Honolulu"}
+{"timezone_name": "Asia/Hong_Kong", "country": "Hong Kong", "pytz_timezone": "Asia/Hong_Kong"}
+{"timezone_name": "Pacific/Auckland", "country": "New Zealand", "pytz_timezone": "Pacific/Auckland"}
+{"timezone_name": "America/St_Johns", "country": "Canada", "pytz_timezone": "America/St_Johns"}
+{"timezone_name": "Magadan", "country": "Russia", "pytz_timezone": "Asia/Magadan"}
+{"timezone_name": "Africa/Lagos", "country": "Nigeria", "pytz_timezone": "Africa/Lagos"}
+{"timezone_name": "America/Lima", "country": "Peru", "pytz_timezone": "America/Lima"}
+{"timezone_name": "Asia/Dubai", "country": "United Arab Emirates", "pytz_timezone": "Asia/Dubai"}
+{"timezone_name": "America/La_Paz", "country": "Bolivia", "pytz_timezone": "America/La_Paz"}
+{"timezone_name": "America/Edmonton", "country": "Canada", "pytz_timezone": "America/Edmonton"}
+{"timezone_name": "Europe/Malta", "country": "Malta", "pytz_timezone": "Europe/Malta"}
+{"timezone_name": "Kabul", "country": "Afghanistan", "pytz_timezone": "Asia/Kabul"}
+{"timezone_name": "Europe/Belfast", "country": "Ireland", "pytz_timezone": "Europe/Belfast"}
+{"timezone_name": "America/Argentina/Buenos_Aires", "country": "Argentina", "pytz_timezone": "America/Argentina/Buenos_Aires"}
+{"timezone_name": "GMT+11", "country": "None", "pytz_timezone": "None"}
+{"timezone_name": "Asia/Colombo", "country": "Sri Lanka", "pytz_timezone": "Asia/Colombo"}
+{"timezone_name": "America/Phoenix", "country": "United States of America", "pytz_timezone": "America/Phoenix"}
+{"timezone_name": "Turkey", "country": "Turkey", "pytz_timezone": "Europe/Istanbul"}
+{"timezone_name": "America/Bogota", "country": "Colombia", "pytz_timezone": "America/Bogota"}
+{"timezone_name": "Asia/Singapore", "country": "Singapore", "pytz_timezone": "Asia/Singapore"}
+{"timezone_name": "America/Belem", "country": "Brazil", "pytz_timezone": "America/Belem"}
+{"timezone_name": "Atlantic/Bermuda", "country": "Bermuda", "pytz_timezone": "Atlantic/Bermuda"}
+{"timezone_name": "America/Bahia_Banderas", "country": "Mexico", "pytz_timezone": "America/Bahia_Banderas"}
+{"timezone_name": "Asia/Shanghai", "country": "China", "pytz_timezone": "Asia/Shanghai"}
