@@ -9,6 +9,7 @@
     <script src="food/twitter_food_wc.js"></script>
     <script src="food/twitter_food_hashtagwc.js"></script>
     <script src="infinitywar/twitter_infinitywar_wc.js"></script>
+    <script src="infinitywar/twitter_infinitywar_hashtags.js"></script>
   </head>
   <body style="text-align: center">
     <select id="inds2">
@@ -38,7 +39,10 @@
         var to_cloud
         if(hashtag == 'infinitywar' && type_of_cloud == 'words'){
           to_cloud = infinity_war_words
-        } else if(type_of_cloud == 'words'){
+        } else if(type_of_cloud == 'hashtags' && hashtag == 'infinitywar'){
+          to_cloud = twitter_infinitywar_hashtags
+        }
+        else if(type_of_cloud == 'words'){
           to_cloud = twitter_food_words
         }else if(type_of_cloud == 'hashtags'){
           to_cloud = twitter_food_hashtags
@@ -79,7 +83,7 @@
       d3.select('#inds')
         .on("change", function () {
           //console.log(this.value)
-          createCloud('a', this.value)
+          createCloud('a', this.value, inds2.options[inds2.selectedIndex].value)
         });
 
         d3.select('#inds2')
