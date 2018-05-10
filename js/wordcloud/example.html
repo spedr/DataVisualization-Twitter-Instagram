@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Word Cloud</title>
+    <script src="../lib/d3/d3.js" charset="utf-8"></script>
+    <script src="../lib/d3/d3.layout.cloud.js"></script>
+    <script src="../d3.wordcloud.js"></script>
+    <script src="test_words.js"></script>
+  </head>
+  <body style="text-align: center">
+    <h1>Word Cloud</h1>
+    <div id='wordcloud'></div>
+    <div id="dataset-picker">
+      <input id ="test" value="test" class="dataset-button" type="button">
+    </div>
+    <script>
+      d3.wordcloud()
+        .size([1000, 600])
+        .transitionDuration(1000)
+        .fill(d3.scale.ordinal().range(["#884400", "#448800", "#888800", "#444400"]))
+        .words(test_words)
+        .onwordclick(function(d, i) {
+          if (d.href) { window.location = d.href; }
+        })
+        .start();
+
+      d3.select('#dataset-picker').selectAll('.dataset-button')
+        .on("click", function() {
+          //clear the wordcloud div
+          document.getElementById("wordcloud").innerHTML = "";
+          var a2 = d3.wordcloud()
+            .size([1000, 600])
+            .transitionDuration(1000)
+            .fill(d3.scale.ordinal().range(["#884400", "#448800", "#888800", "#444400"]))
+            .words(test_words)
+            .onwordclick(function(d, i) {
+              if (d.href) { window.location = d.href; }
+            })
+            .start();
+        });
+
+    </script>
+  </body>
+</html>

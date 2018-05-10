@@ -1,0 +1,25 @@
+// word frequencies of first two chapters of Oliver Twist
+var test_words = [
+  {text: 'have', size: 102},
+  {text: 'Oliver', size: 47},
+  {text: 'say', size: 46},
+  {text: 'said', size: 36},
+  {text: 'bumble', size: 29, href: 'https://en.wikipedia.org/wiki/Beadle'},
+  {text: 'will', size: 29},
+  {text: 'Mrs', size: 56, href: 'https://en.wikipedia.org/wiki/Mrs.'},
+  {text: 'Mann', size: 27, href: 'http://educationcing.blogspot.nl/2012/06/oliver-twist-mrs-manns-character.html'},
+  {text: 'Mr', size: 27},
+  {text: 'very', size: 26},
+  {text: 'child', size: 20},
+  {text: 'all', size: 19},
+  {text: 'boy', size: 19},
+  {text: 'gentleman', size: 19, href: 'http://www.thefreelibrary.com/The+gentleman+in+the+white+waistcoat%3a+Dickens+and+metonymy.-a0154239625'},
+  {text: 'great', size: 19},
+  {text: 'take', size: 19},
+  {text: 'but', size: 18},
+  {text: 'beadle', size: 16},
+  {text: 'twist', size: 16},
+  {text: 'board', size: 15},
+  {text: 'more', size: 15},
+  {text: 'one', size: 15}
+];
