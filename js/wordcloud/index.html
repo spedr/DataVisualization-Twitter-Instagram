@@ -71,7 +71,7 @@
         }
       }
 
-      createCloud('a', 'a')
+      createCloud('a', inds.options[inds.selectedIndex].value, inds2.options[inds2.selectedIndex].value)
 
       d3.select('#dataset-picker').selectAll('.dataset-button')
         .on("click", function() {

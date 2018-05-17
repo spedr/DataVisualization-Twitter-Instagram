@@ -1,0 +1,106 @@
+rect.bordered {
+  stroke: #E6E6E6;
+  stroke-width:2px;
+}
+
+text.mono {
+  font-size: 9pt;
+  font-family: Consolas, courier;
+  fill: #aaa;
+}
+
+text.axis-workweek {
+  fill: #000;
+}
+
+text.axis-worktime {
+  fill: #000;
+}
+
+.dataset-button{
+ position:relative;
+ display:inline-block;
+ padding:0.35em 1.2em;
+ border:0.1em solid #FFFFFF;
+ margin:0 0.3em 0.3em 0;
+ border-radius:0.12em;
+ box-sizing: border-box;
+ text-decoration:none;
+ font-family:'Roboto',sans-serif;
+ font-weight:300;
+ color:#FFFFFF;
+ text-align:center;
+ background-color: #253494;
+ transition: all 0.2s;
+}
+.dataset-button:hover{
+ color:#000000;
+ background-color:#FFFFFF;
+}
+@media all and (max-width:30em){
+.dataset-button{
+	display:block;
+	margin:0.4em auto;
+	}
+}
+
+body {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-wrap:wrap;
+  padding:0;
+  margin:0;
+  height:100vh;
+  width:100vw;
+  font-family: sans-serif;
+  color:#FFF;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: absolute;
+    top: 180px;
+    left: 310px;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
