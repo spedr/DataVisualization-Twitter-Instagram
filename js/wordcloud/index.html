@@ -10,11 +10,14 @@
     <script src="food/twitter_food_hashtagwc.js"></script>
     <script src="infinitywar/twitter_infinitywar_wc.js"></script>
     <script src="infinitywar/twitter_infinitywar_hashtags.js"></script>
+    <script src="deadpool2/ig_deadpool2_hashtags.js"></script>
+    <script src="deadpool2/ig_deadpool2_words.js"></script>
   </head>
   <body style="text-align: center">
     <select id="inds2">
         <option value="food" selected="selected">#food</option>
         <option value="infinitywar">#InfinityWar</option>
+        <option value="deadpool2">#Deadpool2</option>
     </select>
     <select id="inds">
         <option value="words" selected="selected">words</option>
@@ -37,16 +40,23 @@
       function createCloud(social_media, type_of_cloud, hashtag){
         document.getElementById("wordcloud").innerHTML = "";
         var to_cloud
-        if(hashtag == 'infinitywar' && type_of_cloud == 'words'){
+        if(hashtag == 'infinitywar' && type_of_cloud == 'words' && social_media == 'twitter'){
           to_cloud = infinity_war_words
-        } else if(type_of_cloud == 'hashtags' && hashtag == 'infinitywar'){
+        } else if(type_of_cloud == 'hashtags' && hashtag == 'infinitywar' && social_media == 'twitter'){
           to_cloud = twitter_infinitywar_hashtags
         }
-        else if(type_of_cloud == 'words'){
+        else if(type_of_cloud == 'words' && hashtag == 'food' && social_media == 'twitter'){
           to_cloud = twitter_food_words
-        }else if(type_of_cloud == 'hashtags'){
+        }else if(type_of_cloud == 'hashtags' && hashtag == 'food' && social_media == 'twitter'){
           to_cloud = twitter_food_hashtags
-        } else to_cloud = twitter_food_words
+        }else if(type_of_cloud == 'words' && hashtag == 'deadpool2' && social_media == 'twitter'){
+            to_cloud = ig_deadpool_words
+        }else if(type_of_cloud == 'hashtags' && hashtag == 'deadpool2' && social_media == 'twitter'){
+            to_cloud = ig_deadpool_hashtags
+        }else to_cloud = twitter_food_words
+
+
+
 
         if(hashtag == 'infinitywar'){
           var cloud = d3.wordcloud()
@@ -58,7 +68,7 @@
               if (d.href) { window.location = d.href; }
             })
             .start();
-        }else{
+        }else if (hashtag == 'food'){
           var cloud = d3.wordcloud()
             .size([1000, 600])
             .transitionDuration(1000)
@@ -68,29 +78,44 @@
               if (d.href) { window.location = d.href; }
             })
             .start();
+        }else if (hashtag == 'deadpool2'){
+          console.log(to_cloud)
+          var cloud = d3.wordcloud()
+            .size([1000, 600])
+            .transitionDuration(1000)
+            //.fill(d3.scale.ordinal().range(["#ed1c24", "#f1d302", "#e94f2d", "#cdc745", "#020100"]))
+            //.fill(d3.scale.ordinal().range(["#f6a760", "#f99c38", "#e94f2d", "#cdc745", "#24bb14"]))
+            .words(deepCopy(to_cloud))
+            .onwordclick(function(d, i) {
+              if (d.href) { window.location = d.href; }
+            })
+            .start();
         }
       }
 
-      createCloud('a', inds.options[inds.selectedIndex].value, inds2.options[inds2.selectedIndex].value)
+      social_media = 'twitter';
+      createCloud(social_media, inds.options[inds.selectedIndex].value, inds2.options[inds2.selectedIndex].value)
 
       d3.select('#dataset-picker').selectAll('.dataset-button')
         .on("click", function() {
           //clear the wordcloud div
           // cloud.remove();
-          createCloud('a', 'b')
+          social_media = this.value
+          createCloud(social_media, inds.options[inds.selectedIndex].value, inds2.options[inds2.selectedIndex].value)
         });
+
+
 
       d3.select('#inds')
         .on("change", function () {
-          //console.log(this.value)
-          createCloud('a', this.value, inds2.options[inds2.selectedIndex].value)
+          createCloud(social_media, this.value, inds2.options[inds2.selectedIndex].value)
         });
 
         d3.select('#inds2')
           .on("change", function () {
             console.log(this.value)
             //console.log(inds.options[inds.selectedIndex].value)
-            createCloud('a', inds.options[inds.selectedIndex].value, this.value)
+            createCloud(social_media, inds.options[inds.selectedIndex].value, this.value)
           });
 
     </script>

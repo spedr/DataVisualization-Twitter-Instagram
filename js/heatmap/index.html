@@ -30,6 +30,10 @@
       		<option value="food" selected="selected">#food</option>
       		<option value="e3">#E32018</option>
       </select>
+      <select id="inds2">
+      		<option value="volume" selected="selected">post volume</option>
+      		<option value="viral">frequency of virality</option>
+      </select>
       <div id="chart"></div>
       <div id="dataset-picker">
         <input id ="twitter" value="twitter" class="dataset-button" type="button">
@@ -46,7 +50,7 @@
           colors = ["#ffffcc","#ffeda0","#fed976","#feb24c","#fd8d3c","#fc4e2a","#e31a1c","#bd0026","#800026"], // alternatively colorbrewer.YlGnBu[9]
           days = ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
           times = ["1a", "2a", "3a", "4a", "5a", "6a", "7a", "8a", "9a", "10a", "11a", "12a", "1p", "2p", "3p", "4p", "5p", "6p", "7p", "8p", "9p", "10p", "11p", "12p"];
-          datasets = ["food/twitter.tsv", "e3/twitter.tsv", "food/instagram.tsv", "e3/instagram.tsv"];
+          datasets = ["food/volume/twitter.tsv", "food/volume/instagram.tsv", "food/viral/twitter.tsv", "food/viral/instagram.tsv", "e3/volume/instagram.tsv", "e3/volume/twitter.tsv", "e3/viral/instagram.tsv", "e3/viral/twitter.tsv"];
           social_networks = ["twitter", "instagram", "twitter and instagram"]
       const svg = d3.select("#chart").append("svg")
           .attr("width", width + margin.left + margin.right)
@@ -138,24 +142,33 @@
       };
 
   //    heatmapChart(datasets[0]);
-  heatmapChart(datasets[0]);
-  var section = document.getElementById("inds").options[document.getElementById("inds").selectedIndex].value;
-  var social_network = ""
 
+  var section = document.getElementById("inds").options[document.getElementById("inds").selectedIndex].value;
+  var social_network = "twitter"
+  var mode = document.getElementById("inds2").options[document.getElementById("inds2").selectedIndex].value;
+  heatmapChart(datasets[0]);
 
   d3.select('#inds')
       .on("change", function () {
         var sect = document.getElementById("inds");
         section = sect.options[sect.selectedIndex].value;
-        heatmapChart(section + '/' + social_network + '.tsv')
+        heatmapChart(section + '/' + mode + '/' + social_network + '.tsv')
         });
 
 
     d3.select('#dataset-picker').selectAll('.dataset-button')
       .on("click", function() {
         social_network = this.value
-        heatmapChart(section + '/' + social_network + '.tsv');
+        heatmapChart(section + '/' + mode + '/' + social_network + '.tsv')
       });
+
+      d3.select('#inds2')
+          .on("change", function () {
+            var sect = document.getElementById("inds2");
+            mode = sect.options[sect.selectedIndex].value;
+            console.log(section + '/' + mode + '/' + social_network + '.tsv')
+            heatmapChart(section + '/' + mode + '/' + social_network + '.tsv')
+            });
 
     </script>
   </body>
